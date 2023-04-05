@@ -5,7 +5,7 @@
 * @s: the string to be printed
 * Return: Nothing.
 */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 if (*s == '\0')
 {
