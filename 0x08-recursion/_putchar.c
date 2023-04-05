@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* _putchar - Writes the character c to stdout
+* _putchar - Write the character c to stdout
 * @c: The character to print
 *
 * Return: On 1 success.
@@ -11,5 +11,5 @@
 
 int _putchar(char c)
 {
-return writes(1, &c, 1);
+return (write(1, &c, 1));
 }
