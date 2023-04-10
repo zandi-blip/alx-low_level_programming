@@ -18,7 +18,7 @@ position = total = change = aux = 0;
 
 if (argc != 2)
 {
-printf("Errorn");
+printf("Error");
 return (1);
 }
 
@@ -26,7 +26,7 @@ total = atoi(argv[1]); /*Covert str to int*/
 
 if (total <= 0)
 {
-printf("0n");
+printf("0\n");
 return (0);
 }
 
