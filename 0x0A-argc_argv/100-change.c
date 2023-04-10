@@ -18,7 +18,7 @@ position = total = change = aux = 0;
 
 if (argc != 2)
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 
@@ -30,9 +30,9 @@ printf("0\n");
 return (0);
 }
 
-/*Declaring while*/
+/*Declaring While*/
 
-while (coins[position] != '0')
+while (coins[position] != '\0')
 
 {
 if (total >= coins[position])
@@ -45,6 +45,6 @@ total -= coins[position] * aux;
 position++;
 
 }
-printf("%dn", change);
+printf("%d\n", change);
 return (0);
 }
