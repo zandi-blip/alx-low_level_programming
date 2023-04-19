@@ -9,7 +9,7 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-if (name == Zan || f == Zan)
+if (name == nullptr || f == nullptr)
 return (0);
 
 
